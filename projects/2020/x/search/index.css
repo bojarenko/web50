@@ -1,0 +1,252 @@
+/* Styling of navigation bar */
+.navdiv{
+    display:flex;
+    width:17%;
+    margin-left: 82%;
+    justify-content: space-around;
+    margin-top: 1%;
+    height:35px;
+  }
+  .adv_navdiv{
+    
+    display:flex;
+    margin-left: 8px;
+    justify-content: space-around;
+    margin-top: 1%;
+    
+  }
+  
+  .nav img{
+    margin-top: 5px;
+  }
+  
+  .googleimg{
+    margin-top: 50px;
+  }
+
+  .adv_googleimg{
+    width: 10%;
+    margin-left: 5px;
+    
+  }
+  /* Removing underline from links*/
+  .a{
+    font-family: arial ;
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .adv_a{
+    font-family: arial ;
+    
+    text-decoration: none;
+    color: black;
+  }
+
+  .a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+
+  .adv_a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .adv_button{
+    border-radius: 3px;
+    padding:5px 12px;
+    background-color: #4C87E1 ;
+    color:white;
+    border:none;
+  }
+
+  .lucky_button{
+    margin-top: 50px;
+    margin-left: 2px;
+    border-radius: 3px;
+    height:100%;
+    padding:10px 24px;
+    background-color: #f5f5f793 ;
+    color:black;
+    border:none;
+  }
+
+  .lucky_button:hover{
+    border: 1px solid ;
+    border-color: #e5e5e6;
+  }
+
+  .search_button{
+    margin-top: 2px;
+    margin-right: 2px;
+    border-radius: 3px;
+    height:100%;
+    padding:10px 24px;
+    background-color: #f5f5f793 ;
+    color:black;
+    border:none;
+  }
+
+  .adv_input_all{
+    margin-top: 2px;
+    margin-left: 70px;
+    padding:10px 24px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    }
+  
+    .adv_input_exact{
+      margin-top: 2px;
+      margin-left: 7px;
+      padding:10px 24px;
+      border-radius: 1px;
+      border: 1px solid #d9d9d9;
+      border-top: 1px solid #c0c0c0;
+      font-size: 13px;
+      height: 25px;
+      padding: 1px 8px;
+      }
+    
+      .adv_input_any{
+        margin-top: 2px;
+        margin-left: 46px;
+        padding:10px 24px;
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 25px;
+        padding: 1px 8px;
+        }
+      
+        .adv_input_none{
+          margin-top: 2px;
+          margin-left: 37px;
+          padding:10px 24px;
+          border-radius: 1px;
+          border: 1px solid #d9d9d9;
+          border-top: 1px solid #c0c0c0;
+          font-size: 13px;
+          height: 25px;
+          padding: 1px 8px;
+          }
+
+  .border{
+    color: #333;
+    opacity: 20%;
+  }
+
+  .red_text{
+    font-family: arial, sans-serif;
+    font-weight:normal;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding:10px 24px;
+    color:#d93025;
+ 
+  }
+
+  .find_pages{
+    font-family: arial, sans-serif;
+    font-weight:normal;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 35px;
+    color: #333;
+ 
+  }
+
+  .label{
+    font-family: arial, sans-serif;
+    font-weight:normal;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #333;
+    
+  }
+  .search_button:hover{
+    border: 1px solid #e5e5e6;
+  }
+  
+  /* setting up size and border stle of search bar*/
+  #maindiv{
+  width:35%;
+  border-radius: 50px;
+  display: flex;
+  height:40px;
+  border:1px solid lightgrey;
+  }
+  
+  #inputspan{
+    width:80%;
+  }
+  .span{
+    vertical-align: top;
+  }
+  .span:first-child{
+    width:10%;
+    border-radius: 50px;
+    margin-top: 7px;
+  }
+  .span:last-child{
+    width:10%;
+    border-radius: 50px;
+    margin-top: 7px;
+  }
+  
+  .input{
+    height: 120%;
+    width:40%;
+    border: rgb(206, 206, 206); 
+    border-style: solid;
+    border-radius: 25px;
+    padding:10px;
+  }
+  
+  .section{
+    display: flex;
+    margin-top: 200px;
+    width:23%;
+    justify-content: space-around;
+    
+  }
+  .section button{
+    padding:10px 12px;
+    background-color: lightgrey;
+    color:black;
+  }
+  
+  .ul{
+    display: flex;
+    width: 30%;
+    padding-left: 0px;
+    list-style: none;
+    justify-content: space-around;
+    margin: 6px;
+  }
+  #Bottomdiv{
+    display:flex;
+    font-size: 12px;
+    margin-top: 3%;
+  }
+  #Bottomdiv span{
+    width:7%;
+    margin-left: 31%;
+  }
+  /*When hovered*/
+ 
+  
